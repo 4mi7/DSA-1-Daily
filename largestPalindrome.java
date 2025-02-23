@@ -1,6 +1,6 @@
 public class largestPalindrome {
 
-    class Solution {
+    static class Solution {
         int max =0, start = 0, end = 0;
         public boolean ispalindrome(String s, int i, int j){
             while(i<j){
